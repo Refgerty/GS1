@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Li‑ion Battery Pack 1 kWh (Demo)",
+  "gtin": "09506000134352",
+  "serialNumber": "00001",
+  "category": "Electronics > Batteries",
+  "brand": {
+    "@type": "Brand",
+    "name": "DemoPower"
+  },
+  "model": "DP-1K",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": 450,
+    "unitText": "g"
+  },
+  "countryOfOrigin": "DE",
+  "productionDate": "2025-08-14",
+  "material": [
+    "Aluminium",
+    "Copper",
+    "Polypropylene (PP)"
+  ],
+  "url": "https://refgerty.github.io/GS1/01/09506000134352/21/00001/",
+  "identifier": "https://refgerty.github.io/GS1/01/09506000134352/21/00001/",
+  "version": "demo-0.1",
+  "dateModified": "2025-08-14T19:34:34Z",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Life Cycle Assessment (GWP only, demo)",
+    "url": "https://refgerty.github.io/GS1/dpp/BAT-1KWH-DEMO.html"
+  },
+  "hasPart": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://refgerty.github.io/GS1/passports/dpp_passport_refgerty.json"
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Carbon footprint (per unit)",
+      "value": 1.41244,
+      "unitText": "kg CO2e"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Capacity",
+      "value": 1,
+      "unitText": "kWh"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Assembly electricity",
+      "value": 0.9,
+      "unitText": "kWh"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Transport (lorry)",
+      "value": 0.02,
+      "unitText": "t·km"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Data note",
+      "value": "Demo on ELCD: electrolyte/graphite not modelled; to be refined with supplier EPD or ecoinvent."
+    }
+  ]
+}
